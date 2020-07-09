@@ -2,6 +2,7 @@
 Segmentation task with Gangnam Severance Hospital
 
 Objective: Normal Subcortical Template 생성
+
 task: 
 1. using multimodal data (T1, FLAIR, SWAN) finely segment subcortical region (caudate, putamen, globus pallidus, thalamus, subthalamic nucleus, substantia nigra, red nucleus, cerebellar dentate nucleus)
 
