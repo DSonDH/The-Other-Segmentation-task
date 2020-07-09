@@ -9,7 +9,10 @@ task:
 2. transform segmented data to the template space then genereate subcortical probablistic template model
 
 issue: there's no training set for training segmentation deep learning network
+
 temp sol: transfer learning with manual ground truth generation but the ROI seem not suitable for transfer learning
+
 temp sol2: manually segment ROIs and train the network and feedfoward the other data.
+
 
 Application:
