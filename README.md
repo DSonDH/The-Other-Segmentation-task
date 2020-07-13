@@ -14,5 +14,7 @@ temp sol: transfer learning with manual ground truth generation but the ROI seem
 
 temp sol2: manually segment ROIs and train the network and feedfoward the other data.
 
+temp sol3: Use the similar data obtained from the other images of different diseas (NMOSD, MS)
+the images obtained from Freeserfer includes parceled images of subcortical regions, which can be the training label for the segmentation network.
 
-Application:
+Application: Using the obtained normal subcortical template, atlas, 
