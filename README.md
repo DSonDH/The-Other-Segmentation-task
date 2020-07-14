@@ -1,4 +1,4 @@
-# Segmentation-task1
+# Segmentation-task1: subcortical segmentation
 Segmentation task with Gangnam Severance Hospital
 
 Objective: Normal Subcortical Template 생성
@@ -20,7 +20,7 @@ the images obtained from Freeserfer includes parceled images of subcortical regi
 Application: Using the obtained normal subcortical template, atlas, 
 
 
-# Segmentation-task2
+# Segmentation-task2: WHM segmentation
 Segmentation task with changwon gyeongsang national university hospital (CGNUH)
 
 Objective: White Matter Hyperintensity (WMH) map generation
