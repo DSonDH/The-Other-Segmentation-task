@@ -1,4 +1,4 @@
-# Segmentation-task
+# Segmentation-task1
 Segmentation task with Gangnam Severance Hospital
 
 Objective: Normal Subcortical Template 생성
@@ -18,3 +18,19 @@ temp sol3: Use the similar data obtained from the other images of different dise
 the images obtained from Freeserfer includes parceled images of subcortical regions, which can be the training label for the segmentation network.
 
 Application: Using the obtained normal subcortical template, atlas, 
+
+
+# Segmentation-task2
+Segmentation task with changwon gyeongsang national university hospital (CGNUH)
+
+Objective: White Matter Hyperintensity (WMH) map generation
+
+task: 
+1. using multimodal data (T1, FLAIR) finely segment WMH lesion
+
+2. Much less false positive
+issue: No exact training dataset exept WMH map of NMOSD and MS (which is not exactly fine segmentation map)
+
+temp sol: semi-superviesed learning
+
+Application: Using the obtained segmenation map, we can study the distribution of lesion easily
