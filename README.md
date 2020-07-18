@@ -32,5 +32,5 @@ task:
 issue: No exact training dataset exept WMH map of NMOSD and MS (which is not exactly fine segmentation map)
 
 temp sol: semi-superviesed learning
-
+temp sol2: remove non-White matter region using the output of the Freesurfer
 Application: Using the obtained segmenation map, we can study the distribution of lesion easily
