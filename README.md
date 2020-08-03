@@ -1,3 +1,5 @@
+Segmentation of brain subcortical region and WMH
+
 # Segmentation-task1: subcortical segmentation
 Segmentation task with Gangnam Severance Hospital
 
