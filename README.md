@@ -26,11 +26,5 @@ Segmentation task with changwon gyeongsang national university hospital (CGNUH)
 Objective: White Matter Hyperintensity (WMH) map generation
 
 task: 
-1. using multimodal data (T1, FLAIR) finely segment WMH lesion
+1. With training data with FLAIR image and fine GT, segment CGNUH data
 
-2. Much less false positive
-issue: No exact training dataset exept WMH map of NMOSD and MS (which is not exactly fine segmentation map)
-
-temp sol: semi-superviesed learning
-temp sol2: remove non-White matter region using the output of the Freesurfer
-Application: Using the obtained segmenation map, we can study the distribution of lesion easily
